@@ -13,6 +13,6 @@ fn main() {
         width: 30,
         height: 50,
     };
-    
+    dbg!(&rect1);
     println!("The area of the rectangle with dimenstions {rect1:?} is {} square pixels.", calculate_area(&rect1));
 }
